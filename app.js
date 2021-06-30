@@ -53,6 +53,10 @@ waterBtn.addEventListener('click', ()=>{
     renderPlant(plantHealth);
 
     // ORIGINAL VERSION
+    // Notice the duplicated code
+    // refactoring included moving the rendering out to its own function
+    // moving the logic for plantHealth to its own function
+    
     // if water level < 3
     // if (waterLevel < 3) {
     //   //    update the image to thirsty image
